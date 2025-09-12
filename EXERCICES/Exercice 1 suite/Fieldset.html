@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Votre identité</legend>
+
+        <ol>
+            <li>
+                <form action="">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" placeholder="Prénom et nom">
+                </form>
+            </li>
+            
+            <li>
+                <form action="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="exemple@domaine.com">
+                </form>
+            </li>
+
+            <li>
+                <form action="">
+                    <label for="tel">Télépphone</label>
+                    <input type="number" name="tel" placeholder="par ex : +3375500000000">
+                </form>
+            </li>
+
+        </ol>
+    </fieldset>
+
+    <fieldset>
+        <legend>Adresse de livraison</legend>
+
+        <ol>
+            <li>
+            <label for="adresse">Adresse</label>
+            <textarea name="adresse" id="" cols="30" rows="10"></textarea>
+            </li>
+
+            <li>
+                <form action="">
+                    <label for="cp">Code postal</label>
+                    <input type="number" name="cp">
+                </form>
+            </li>
+
+            <li>
+                <form action="">
+                    <label for="pays">Pays</label>
+                    <input type="text" name="pays">
+                </form>
+            </li>
+        </ol>
+
+        <fieldset>
+            <legend>informations CB</legend>
+
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>Type de carte bancaire</legend>
+
+                        <ol>
+                            <li>
+                                <form action="">
+                                    <input type="radio"> VISA 
+                                </form>
+                            </li>
+                            <li>
+                                <form action="">
+                                    <input type="radio"> AmEX 
+                                </form>
+                            </li>
+                            <li>
+                                <form action="">
+                                    <input type="radio"> Mastercard 
+                                </form>
+                            </li>
+                        </ol>                            
+                    </fieldset>
+                </li>
+
+                <li>
+                    <form action="">
+                        <label for="numcard">N° de carte</label>
+                        <input type="number" name="numcard">
+                    </form>
+                </li>
+
+                <li>
+                    <form action="">
+                        <label for="code">Code de sécurité</label>
+                        <input type="number" name="code">
+                    </form>
+                </li>
+
+                <li>
+                    <form action="">
+                        <label for="porteur">Nom du porteur</label>
+                        <input type="text" name="porteur" placeholder="Même nom que sur la carte">
+                    </form>
+                </li>
+
+                
+            </ol>
+          
+        </fieldset>
+
+        <fieldset>
+            <form action="">
+                <input type="button" value="J'achète !">
+            </form>
+        </fieldset>
+    </fieldset>
+    
+</body>
+
+</html>
