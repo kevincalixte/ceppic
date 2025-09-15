@@ -13,13 +13,13 @@
                 <p class="logo1"><a href="#"><span>BR</span> Architects</a></p>
 
             <nav>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
             </nav>
 
             <div class="img1">
-                <img src="img/architect.jpg" alt="">
+                <img src="img/architect.jpg" alt="architect">
                 <p class="logo2"><span>BR</span> Architects</p> 
                 <!-- ou backround url img -->
             </div>
@@ -33,57 +33,57 @@
             <h1>Projects</h1>
             <div class="house">
                 
-                <p>Summer House</p>
-                <img src="img/house5.jpg" alt="">  
+                <span>Summer House</span>
+                <img src="img/house5.jpg" alt="house">  
                 
             </div>
 
             <div class="house">
                 
-                <p>Brick House</p>
-                <img src="img/house2.jpg" alt=""> 
+                <span>Brick House</span>
+                <img src="img/house2.jpg" alt="house"> 
                 
             </div>
 
             <div class="house">
                 
-                <p>Renovated</p>
-                <img src="img/house3.jpg" alt=""> 
+                <span>Renovated</span>
+                <img src="img/house3.jpg" alt="house"> 
                 
             </div>
 
             <div class="house">
                 
-                <p>Barn House</p>
-                <img src="img/house4.jpg" alt="">  
-                
-            </div>
-
-            <div class="house">
-            
-                <p>Summer House</p>
-                <img src="img/house2.jpg" alt="">   
-                
-            </div>
-
-            <div class="house">
-                
-                <p>Brick House</p>
-                <img src="img/house5.jpg" alt="">  
-            
-            </div>
-
-            <div class="house">
-            
-                <p>Renovated</p>
-                <img src="img/house4.jpg" alt="">  
+                <span>Barn House</span>
+                <img src="img/house4.jpg" alt="house">  
                 
             </div>
 
             <div class="house">
             
-                <p>Barn House</p>
-                <img src="img/house3.jpg" alt="">   
+                <span>Summer House</span>
+                <img src="img/house2.jpg" alt="house">   
+                
+            </div>
+
+            <div class="house">
+                
+                <span>Brick House</span>
+                <img src="img/house5.jpg" alt="house">  
+            
+            </div>
+
+            <div class="house">
+            
+                <span>Renovated</span>
+                <img src="img/house4.jpg" alt="house">  
+                
+            </div>
+
+            <div class="house">
+            
+                <span>Barn House</span>
+                <img src="img/house3.jpg" alt="house">   
                 
             </div>
 
@@ -95,34 +95,35 @@
             <p>About<p>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident sunt possimus voluptatum reiciendis aliquam eaque repudiandae, ipsum sit iure? Dolor consequatur praesentium cupiditate doloribus quis laudantium voluptatem, ex inventore illum?</p>
                 
-              <div>
-                <img src="img/team2.jpg" alt="">
-                <p>John Doe <span>CEO & Founder</span> </p> 
+              <div class="John">
+                <img src="img/team2.jpg" alt="face">
+                <p>John Doe</p> 
+                <p>CEO & Founder</p>
                 <!-- CSS margin padding pour l'espace -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
                 <input type="button" value="Contact">
               </div>
        
-               <div>
-                <img src="img/team1.jpg" alt="">
-                <p>Jane Doe <span>Architect</span></p> 
-                <!-- CSS margin padding pour l'espace -->
+               <div class="Jane">
+                <img src="img/team1.jpg" alt="face">
+                <p>Jane Doe</p> 
+                <p>Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
                 <input type="button" value="Contact">
               </div>
 
-               <div>
-                <img src="img/team3.jpg" alt="">
-                <p>Mike Ross <span>Architect</span></p> 
-                <!-- CSS margin padding pour l'espace -->
+               <div class="Mike">
+                <img src="img/team3.jpg" alt="face">
+                <p>Mike Ross </p> 
+                <p>Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
                 <input type="button" value="Contact">
               </div>
 
-               <div>
-                <img src="img/team4.jpg" alt="">
-                <p>Dan Star <span>Architect</span></p> 
-                <!-- CSS margin padding pour l'espace -->
+               <div class="Dan">
+                <img src="img/team4.jpg" alt="face">
+                <p>Dan Star</p> 
+                <p>Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
                 <input type="button" value="Contact">
               </div>
@@ -134,16 +135,17 @@
          <p>Lorem ipsum dolor sit amet consectetur.</p>
             
             
-         <form action="">
+         <form action="" method="post">
 
             <label for="name"></label>
-            <input type="text" placeholder="Name">
+            <input type="text" name="name" class="name" id="name" placeholder="Name">
+             <!-- required ? -->
             <label for="email"></label>
-            <input type="email" placeholder="Email">
+            <input type="email" name="email" class="email" id="email"placeholder="Email">
             <label for="subject"></label>
-            <input type="text" placeholder="Subject">
+            <input type="text" name="subject" class="subject" id="subject"placeholder="Subject">
             <label for="comment"></label>
-            <input type="text" placeholder="Comment">
+            <input type="text" name="comment" class="comment" id="comment"placeholder="Comment">
             <input type="submit" value="SEND MESSAGE">
             <!-- display block ? -->
 
