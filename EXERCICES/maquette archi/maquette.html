@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BR Architects</title>
         <link rel="stylesheet" href="maquette.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -32,7 +35,10 @@
         <div class="projects" id="projects">
             
             <h1>Projects</h1>
-            <div class="house">
+
+            <div class="container">
+
+                <div class="house">
                 
                 <span>Summer House</span>
                 <img src="img/house5.jpg" alt="house">  
@@ -88,52 +94,64 @@
                 
             </div>
 
+
+            </div> 
+
                
         </div>
                 
  
-        <div class="About" id="about">
-            <p>About<p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident sunt possimus voluptatum reiciendis aliquam eaque repudiandae, ipsum sit iure? Dolor consequatur praesentium cupiditate doloribus quis laudantium voluptatem, ex inventore illum?</p>
+        <div class="about" id="about">
                 
-              <div class="card">
+             <p class="titre">About<p>
+             <p class="paragraphe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident sunt possimus voluptatum reiciendis aliquam eaque repudiandae, ipsum sit iure? Dolor consequatur praesentium cupiditate doloribus quis laudantium voluptatem, ex inventore illum?</p>     
+     
+        <div class="container">
+              
+        
+            <div class="card">
                 <img src="img/team2.jpg" alt="face">
-                <p>John Doe</p> 
-                <p>CEO & Founder</p>
+                <p class="name">John Doe</p> 
+                <p class="job">CEO & Founder</p>
                 <!-- CSS margin padding pour l'espace -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
-                <input type="button" value="Contact">
+                <a href="#">Contact</a>
               </div>
        
                <div class="card">
                 <img src="img/team1.jpg" alt="face">
-                <p>Jane Doe</p> 
-                <p>Architect</p>
+                <p class="name">Jane Doe</p> 
+                <p class="job">Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
-                <input type="button" value="Contact">
+                <a href="#">Contact</a>
               </div>
 
                <div class="card">
                 <img src="img/team3.jpg" alt="face">
-                <p>Mike Ross </p> 
-                <p>Architect</p>
+                <p class="name">Mike Ross </p> 
+                <p class="job">Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
-                <input type="button" value="Contact">
+                <a href="#">Contact</a>
               </div>
 
                <div class="card">
                 <img src="img/team4.jpg" alt="face">
-                <p>Dan Star</p> 
-                <p>Architect</p>
+                <p class="name">Dan Star</p> 
+                <p class="job">Architect</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, assumenda.</p>
-                <input type="button" value="Contact">
+                <a href="#">Contact</a>
               </div>
-            </div>
+
+               </div>
+        </div>
+
+              
+            
             
               
-        <div class="Contact" id="contact">
-         <p>Contact</p>
-         <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="contact" id="contact">
+         <p class="titre">Contact</p>
+         <p class="paragraphe">Lorem ipsum dolor sit amet consectetur.</p>
             
             
          <form action="" method="post">
@@ -147,17 +165,19 @@
             <input type="text" name="subject" class="subject" id="subject"placeholder="Subject">
             <label for="comment"></label>
             <input type="text" name="comment" class="comment" id="comment"placeholder="Comment">
-            <input type="submit" value="SEND MESSAGE">
+            <input type="submit" class="button"value="SEND MESSAGE">
             <!-- display block ? -->
 
          </form>
           
+          <img src="img/map.jpg" alt="">
         </div>
 
         </main>
 
+        
         <footer>
-            <img src="img/map.jpg" alt="">
+           
             <p>Powered by Footer</p>
         </footer>
 
